@@ -1,0 +1,43 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(252, 241, 227);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 150, 243, 0.534);
+}
+
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navitems{
+
+    display: flex;
+}
+
+ul{
+    justify-content: space-between;
+    list-style: none;
+}
+
+li{
+    
+    background-color: #fff;
+    margin-left: 5px;
+    padding: 10px 20px;
+}
+
+a{
+    font-size: 14px;
+    color: #282828;
+    text-decoration: none;
+}
