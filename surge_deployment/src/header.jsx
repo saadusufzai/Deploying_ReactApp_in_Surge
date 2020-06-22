@@ -7,7 +7,7 @@ class Header extends React.Component{
             
             <div className={styles.navbar}>
                <div className={styles.nav}>
-                <div>LOGO</div>
+                    <div>LOGO</div>
                     <div >
                         <ul className={styles.navitems}>
                             <li><a href="#">Home</a></li>

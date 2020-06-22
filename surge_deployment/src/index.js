@@ -4,15 +4,17 @@ import App from './App'
 import Header from  './header'
 import styles from './header.module.css'
 
-function Hello(){
-  return <h1> Hello Function</h1>
+function Hello(props){
+return <h1> Hello {props.name}</h1>
 }
 
 ReactDOM.render(
   <div className={styles.container}>
-    <Header/>
+    <Header />
     <App />
-    <Hello />
+    <Hello name='MY COMPANY' />
+    <Hello name='Saad' />
+    <Hello name='Aslam' />
   </div>
   , document.getElementById('root')
 )

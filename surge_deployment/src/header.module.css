@@ -1,7 +1,7 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    background-color: rgb(252, 241, 227);
+    background-color: rgba(252, 241, 227, 0.527);
 }
 
 .navbar{
@@ -30,7 +30,7 @@ ul{
 }
 
 li{
-    
+    border-radius: 30px;
     background-color: #fff;
     margin-left: 5px;
     padding: 10px 20px;
